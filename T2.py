@@ -15,6 +15,5 @@ else:
   nd=iphone_price - balance
   print("Вам не хватает",iphone_price - balance)
   nw=nd/zp
-  math.ceil (nw, )
-  print((nw) , "Месяцев нужно работать")
+  print(round(nw) , "Месяцев нужно работать")
 print("Ваш баланс к концу года", balance)

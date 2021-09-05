@@ -1,8 +1,7 @@
-t = int(input())
-k = 0
-while t>=0:
-    num = int(t)
-    k += num
-    t = int(input())
+a, k = int(input()), 0
+while a<=5 and a>0:
+    if a == 5:
+        k += 1
+    a = int(input())
 print(k)
 
